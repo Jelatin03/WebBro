@@ -1,0 +1,146 @@
+.card-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;  
+}
+  
+.card-group2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;  
+}
+
+.card-group3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px; 
+}
+  
+.card {
+    width: 250px; /* Adjust the width of each card */
+    height: 350px; /* Adjust the height of each card */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e5e4e2;
+    box-shadow: -1rem 0 3rem #44464d;
+}
+  
+.card img {
+    width: 100%;
+    height: 150px; /* Adjust the height of the image */
+    object-fit: scale-down;
+} 
+  
+.card p {
+    color: #888;
+}
+  
+.card h2 {
+    font-family:brush script mt; 
+    color:#04395E;
+    font-size: 200%;
+    padding-top: 8%;
+}
+    
+.card h3 {
+    font-family:Arial Narrow; 
+    color:#04395E;
+    font-size: 150%;
+    padding-top: 5%;
+}
+  
+.btn {
+    display: inline-block;
+    background-color: #1d2559;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10%;
+    font-family:Arial Narrow;
+    font-weight: bold;
+}
+  
+.btn:hover {
+    text-decoration: underline;
+}
+  
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+  
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+  
+.modal-window > div {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+    font-family: Arial Narrow;
+    text-align: justify;
+    font-size: 105%;
+}
+  
+.modal-window header {
+  font-weight: bold;
+}
+  
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+  
+.modal-window h2 {
+    font-family: Arial Narrow;
+}
+  
+.modal-window h3 {
+    font-family: Arial Narrow;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+  
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+  
+.modal-close:hover {
+  color: black;
+}

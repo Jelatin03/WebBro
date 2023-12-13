@@ -1,0 +1,220 @@
+body {
+    overflow: visible;
+  }
+
+  .container {
+    position: absolute;
+    height: 350px;
+    width: 1000px;
+    top: 35px;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   left: 50%;
+  transform: translateX(-50%);
+  }
+  
+  .container2 {
+    position: absolute;
+    height: 350px;
+    width: 1000px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 380px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .card {
+    display: flex;
+    height: 320px;
+    width: 850px;
+    background-color: #e5e4e2; 
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #44464d;
+    transition: 0.4s ease-out;
+    position: relative;
+    image-rendering: auto;
+    margin: auto;
+  }
+
+  .card:not(:first-child) {
+    margin-left: -50px;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover ~ .card {
+    position: relative;
+    transition: 0.4s ease-out;
+  }
+
+  .title {
+    color:#04395E;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    font-family:brush script mt; 
+    font-size: 200%;
+  }
+
+  .bar {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    height: 5px;
+    width: 190px;
+  }
+
+  .emptybar {
+    background-color: #a6a7a9;
+    width: 95%;
+    height: 100%;
+  }
+
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background:#04395E;
+    transition: 0.6s ease-out;
+  }
+
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+  /* CSS for modal window */
+  .modal-window {
+  
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}   
+
+  /* CSS for visible modal window */
+  .modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* CSS for content inside the modal window */
+  .modal-window > div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+    border-radius: 1rem;
+  }
+
+  /* CSS for spacing between elements inside the modal window */
+  .modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+
+  /* CSS for close button in the modal window */
+  .modal-close {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+  }
+ 
+  /* CSS for hover effect on the close button */
+  .modal-close:hover {
+    color: black;
+  }
+
+  a {
+  color: #803838; /* Set the text color to white for better contrast */
+  opacity: 0; /* Make the text invisible */
+  }
+
+  .card .box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 15px; 
+  margin-right: 20px; /* Right margin */
+  margin-left: 15px; /* Left margin */
+  }
+
+  .card .box img {
+  width: auto;
+  height: 200px;
+  margin-left: -15px;
+  }
+
+  /*add*/
+  .header { 
+  background-color: #031D44;
+  width: 100%;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  text-shadow: 2px 2px black;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  margin-top: 950px;
+  }
+
+  .header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; /* Added to display elements vertically */
+  }
+
+  .center-text {
+  text-align: center;
+  }
+
+  .footer a {
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+  }
+
+p {
+font-family:arial narrow; 
+color:black; 
+text-align: justify;
+font-size:130%; 
+}
+

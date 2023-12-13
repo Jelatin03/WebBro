@@ -1,0 +1,53 @@
+.DisclaimerLabel {
+    font-family:verdana; 
+    font-size:250%; 
+    padding-top: 50px; 
+    padding-left: 8%; 
+    color:#04395E; 
+    padding-bottom: 10px;
+}
+
+.DisclaimerDescription {
+    font-family:arial narrow; 
+    font-size:140%; 
+    margin-top: 15px; 
+    margin-bottom: 25px; 
+    padding-left: 8%; 
+    padding-right: 8%; 
+    color:black; 
+    text-align: justify;
+}
+
+.Line {
+    border-bottom: 5px solid #04395E; 
+    width: 90%; 
+    margin: auto; 
+    border-radius: 3px;
+}
+
+.ReferencesLabel {
+    font-family:verdana; 
+    font-size:250%; 
+    padding-top: 2%; 
+    padding-left: 8%; 
+    color:#04395E; 
+    padding-bottom: 10px;
+}
+
+.ReferencesLabel2 {
+    font-family: arial narrow; 
+    font-size: 200%; 
+    color:#04395E; 
+    padding-left: 9%; 
+    font-weight: bold;
+}
+
+.ReferencesLinks {
+    font-family: arial narrow; 
+    font-size: 150%; 
+    color:#04395E; 
+    padding-left: 11%; 
+    list-style-type: none; 
+    padding-right: 11%;
+}
+

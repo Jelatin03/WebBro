@@ -1,0 +1,184 @@
+.DubNationBorder {
+    margin-top:2%; 
+    margin-bottom: 1%; 
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+    width:94%; height: 375px
+}
+
+.DUB {
+    position: absolute; 
+    z-index: 10;  
+    top: 42%; left: 50%; 
+    transform: translate(-50%, -50%); 
+	font-family: verdana; 
+    font-weight: bold; 
+    color: white; 
+    font-size: 400%; 
+    width:100%; 
+    height: Auto; text-shadow: 2px 2px black;
+}
+
+.DubNationImage {
+    opacity: 0.80;
+}
+
+.TeamName {
+    margin:0px; 
+    font-family:Copperplate Gothic; 
+    color:#04395E; 
+    text-align:center; 
+    font-size: 600%; 
+    padding-top: 30px; 
+    letter-spacing: 3px; 
+    text-align: center; 
+    padding-bottom: 15px
+}
+
+.container {
+    margin: auto;
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+    width:94%; 
+    height: 375px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+ position: relative;
+ margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+ display: none;
+ width: 100%;
+ height: 366px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 44%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 50px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+.AboutTheTeamLabel {
+    font-family:verdana; 
+    font-size:250%; 
+    padding-top: 75px; 
+    padding-left: 40px; 
+    color:#04395E;
+}
+
+.AboutTheTeamDescription {
+    font-family:arial narrow; 
+    font-size:140%; 
+    margin-top: 15px; 
+    margin-bottom: 35px; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    color:black; 
+    text-align: justify;
+}
+
+.TeamPics {
+    margin-bottom: 2%;
+}
+
+.TeamPic1 {
+    width: 470;
+    height: 300;
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+    width:470px; 
+    height:315px; 
+    margin-left: 2%;
+}
+
+.TeamPic2 {
+    width: 470;
+    height: 300;
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+    width:470px; 
+    height:315px; 
+    margin-left: 1%; 
+    margin-right: 1%;
+}
+
+.TeamPic3 {
+    width: 470;
+    height: 300;
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+    width:470px; 
+    height:315px; 
+    margin-right: 2%;
+}
+
+.HighlightsLabel {
+    font-family:verdana; 
+    font-size:250%; 
+    color:#04395E; 
+    margin: 0px auto; 
+    padding-top: 40px; 
+    padding-left: 40px;
+}
+
+.HighlightsVid {
+    padding-top: 20px; 
+    padding-bottom: 65px;
+}
+
+.HighlightsVid1 {
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+	margin-left: 2%;
+}
+
+.HighlightsVid2 {
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black;
+	margin-left: 1%; 
+    margin-right: 1%;
+}
+
+.HighlightsVid3 {
+    border: 5px solid #031D44; 
+    border-radius: 3px; 
+    box-shadow: 2px 2px 2px black; 
+	margin-right: 2%;
+}
